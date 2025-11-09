@@ -16,5 +16,5 @@ RUN python -m playwright install --with-deps chromium
 
 COPY amazon_api.py .
 
-EXPOSE 5000
+EXPOSE 5001
 CMD ["python", "amazon_api.py"]
