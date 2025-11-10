@@ -37,7 +37,7 @@ def scrape():
     extraction_strategy=extraction_strategy,
     scan_full_page=True,
     scroll_delay=0.3,
-    delay_before_return_html=1.0,   
+    delay_before_return_html=3.0,   
     simulate_user=True    
 )
 
