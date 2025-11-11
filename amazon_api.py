@@ -17,9 +17,9 @@ browser_config = BrowserConfig(
     viewport_height=1080,
     user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
     user_agent_mode="random",
-    text_mode=True,
-    light_mode=True,
-    extra_args=["--no-sandbox", "--disable-gpu", "--disable-extensions"]
+    text_mode=True
+    #light_mode=True,
+    #extra_args=["--no-sandbox", "--disable-gpu", "--disable-extensions"]
 )
 
 @app.route('/scrape_amazon', methods=['POST'])
